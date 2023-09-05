@@ -1,10 +1,13 @@
-let sections = document.querySelectorAll('#menu-icon');
-let navLinks = document.querySelectorAll('.navbar');
+let menuIcon = document.querySelectorAll('#menu-icon');
+let navbar = document.querySelectorAll('.navbar');
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 };
+
+let sections = document.querySelectorAll('#section');
+let navLinks = document.querySelectorAll('header nav a');
 
 window.onscroll = () => {
     sections.forEach(sec => {
