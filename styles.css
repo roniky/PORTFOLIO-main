@@ -170,20 +170,15 @@ span {
     align-items: center;
     gap: 2rem;
     background: var(--second-bg-color);
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 8rem;
-    justify-content: space-between;
-     z-index: 100;
+   
     
 
 
 }
 
 .about-img img {
-    width: 70vw;
-    margin-top: 4rem;
+    width: 35vw;
+   
 }
 
 .heading {
