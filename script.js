@@ -38,7 +38,7 @@ navbar.classList.remove('active');
 
 };
 
-//*=========== scroll ============*/
+//*=========== scroll reveal ============*/
 ScrollReveal({
     //reset: true,
     distance: '80px',
