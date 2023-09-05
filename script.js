@@ -4,7 +4,7 @@ let navLinks = document.querySelectorAll('header nav a');
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
-}
+};
 
 window.onscroll = () => {
     sections.forEach(sec => {
