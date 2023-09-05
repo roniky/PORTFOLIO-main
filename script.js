@@ -50,3 +50,12 @@ ScrollReveal().reveal('.home-content, .heading', {origin: 'top'});
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin :'bottom'});
 ScrollReveal().reveal('.home-content h1, .about-img',{origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content',{origin: 'right'});
+
+/*=========== typed js ============*/
+const typed = Typed ('.multiple-text',{
+    String: ['frontend Developer', 'gamer', 'Blogger'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 100,
+    loop: true
+});
