@@ -1,6 +1,10 @@
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
+menuIcion.onlick = () => {
+    menuIcion.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+}
 
 window.onscroll = () => {
     sections.forEach(sec => {
