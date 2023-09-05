@@ -3,7 +3,7 @@ let menuIcon = document.querySelectorAll('#menu-icon');
 let navbar = document.querySelectorAll('.navbar');
 
 menuIcon.onclick = () => {
-    menuIcon.classList.toggle('bi-x');
+    menuIcon.classList.toggle("bi bi-x");
     navbar.classList.toggle('active');
 };
 //*=========== scroll sections avtive link ============*/
@@ -33,7 +33,7 @@ header.classList.toggle('sticky', window.scrollY > 100);
 
 //*=========== remove toggle icon and navbar when click navbar link (scroll) ============*/
 
-menuIcon.classList.remove('bi-x');
+menuIcon.classList.remove("bi bi-x");
 navbar.classList.remove('active');
 
 };
