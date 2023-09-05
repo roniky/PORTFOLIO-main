@@ -63,6 +63,7 @@ section {
     color: var(--text-color);
     margin-left: 4rem;
     transition: .3s;
+    flex: auto;
 }
 
 .navbar a:hover,
@@ -82,6 +83,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: auto;
 }
 
 .home-content h3 {
@@ -477,6 +479,7 @@ span {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+        flex: auto;
 
     }
 
